@@ -1,10 +1,11 @@
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
   return (
-    <>
-      <Footer />
-    </>
+    <div className="min-h-screen bg-primary">
+      <Header />
+    </div>
   )
 }
 

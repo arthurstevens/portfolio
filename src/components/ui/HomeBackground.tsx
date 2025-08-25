@@ -7,7 +7,7 @@ const HomeBackground: React.FC = () => {
     <div className="overflow-hidden h-screen w-screen">
       <img
         src={bgImage}
-        className="w-full h-screen overflow-hidden feather-opacity"
+        className="overflow-hidden feather-opacity"
       />
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../assets/bg.png";
+import bgImage from "../../assets/bg-eva.png";
 import "./HomeBackground.css";
 
 const HomeBackground: React.FC = () => {

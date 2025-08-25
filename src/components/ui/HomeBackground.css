@@ -12,7 +12,7 @@
 
 @keyframes image-fade {
   0%, 100% { opacity: 0; }
-  50% { opacity: 0.08; }
+  50% { opacity: 0.15; }
 }
 
 @keyframes image-zoom {

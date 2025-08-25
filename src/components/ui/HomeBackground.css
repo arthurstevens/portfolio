@@ -1,0 +1,21 @@
+.feather-opacity {
+  -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(circle, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+  opacity: 0;
+  filter: blur(3px);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  animation: image-fade 5s ease-in-out infinite, image-zoom 10s ease-in-out infinite;
+}
+
+@keyframes image-fade {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 0.08; }
+}
+
+@keyframes image-zoom {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}

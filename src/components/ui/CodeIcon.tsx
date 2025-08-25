@@ -4,7 +4,7 @@ interface IconProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
 }
 
-const Code: React.FC<IconProps> = ({ size = 24, ...props }) => (
+const CodeIcon: React.FC<IconProps> = ({ size = 24, ...props }) => (
   <svg
     width={size}
     height={size}
@@ -17,5 +17,5 @@ const Code: React.FC<IconProps> = ({ size = 24, ...props }) => (
   </svg>
 );
 
-export default Code;
+export default CodeIcon;
 

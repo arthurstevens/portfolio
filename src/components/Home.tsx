@@ -2,13 +2,13 @@ import HomeBackground from "./ui/HomeBackground";
 
 const Home = () => {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center">
+    <section id="home" className="relative w-full h-screen flex items-center justify-center">
       <HomeBackground />
       <div className="absolute text-center text-white px-4">
         <div className="flex flex-col space-y-5">
           {/* Name */}
           <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-            <span className="text-accent">{">"}</span> 
+            <span className="text-accent">{"> "}</span> 
             <span className="text-foreground">ARTHUR</span>{" "}
             <span className="text-secondary">SRODZINSKI-STEVENS</span>
             <span className="text-accent animate-pulse">_</span>

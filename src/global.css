@@ -9,6 +9,10 @@
     --color-border: #374151;
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 .terminal-cursor {
     border-right: 1px solid;
     animation: blink 1s step-start infinite;

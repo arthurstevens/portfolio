@@ -1,5 +1,6 @@
 import HomeBackground from "./ui/HomeBackground";
 import Socials from "./ui/Socials"
+import Code from "./ui/icons/Code"
 
 const Home = () => {
   return (
@@ -39,8 +40,20 @@ const Home = () => {
               <div className="text-accent terminal-cursor w-min">$</div>
             </div>
           </div>
-          <div className="flex justify-center">
-            <Socials />
+          {/* Links */}
+          <div className="flex justify-center items-center">
+            {/* Order had to be used for peer groups */}
+            <a 
+              href="#projects"
+              className="peer/projects order-1 cursor-pointer flex items-center p-2 space-x-1 h-auto rounded-md  text-black hover:text-white bg-accent hover:bg-transparent border-1 border-accent hover:border-white transition duration-300 ease-in-out"
+            >
+              <Code />
+              <span className="font-semibold">View Projects</span>
+            </a>
+            <div className="peer/socials order-3">
+              <Socials />
+            </div>
+            <span className="order-2 w-15 h-1 bg-gradient-to-r from-accent peer-hover/projects:from-primary to-primary/5 peer-hover/socials:to-primary transition duration-300 ease-in-out" />
           </div>
         </div>
       </div>

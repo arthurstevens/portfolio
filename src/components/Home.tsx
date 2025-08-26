@@ -1,4 +1,5 @@
 import HomeBackground from "./ui/HomeBackground";
+import Socials from "./ui/Socials"
 
 const Home = () => {
   return (
@@ -37,6 +38,9 @@ const Home = () => {
               </div>
               <div className="text-accent terminal-cursor w-min">$</div>
             </div>
+          </div>
+          <div className="flex justify-center">
+            <Socials />
           </div>
         </div>
       </div>

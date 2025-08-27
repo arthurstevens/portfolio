@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #fff;
-    --color-secondary: #7e7e7e;
-    --color-accent: #63b55b;
-    --color-background-primary: #020202;
-    --color-background-accent: #020302;
-    --color-border: #374151;
+  --color-primary: #fff;
+  --color-secondary: #7e7e7e;
+  --color-accent: #63b55b;
+  --color-background-primary: #020202;
+  --color-background-accent: #020302;
+  --color-border: #374151;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html {
@@ -14,12 +18,12 @@ html {
 }
 
 .terminal-cursor {
-    border-right: 1px solid;
-    animation: blink 1s step-start infinite;
+  border-right: 1px solid;
+  animation: blink 1s step-start infinite;
 }
 
 @keyframes blink {
-    50% {
-        border-color: transparent;
-    }
+  50% {
+    border-color: transparent;
+  }
 }

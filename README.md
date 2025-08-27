@@ -4,7 +4,6 @@
 
 - Home
     - Add tilt effect to terminal
-    - Add bobbing scroll button (scrolls to about)
 - About
     - Image
     - Who I am, what I like, what drives/motivates me
@@ -33,3 +32,4 @@
             - Git
             - Linked in
         - 'Wanting to collaborate?' filler box
+- Ensure responsive throughout all sections

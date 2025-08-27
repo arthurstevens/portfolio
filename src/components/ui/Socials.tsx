@@ -4,7 +4,7 @@ import LinkedIn from "./icons/LinkedIn";
 
 const Socials = () => {
   return (
-    <div className="group flex h-auto w-full border-t-1 border-b-1 border-l-2 border-l-black items-center text-accent hover:text-primary border-accent hover:border-neutral-100 rounded-md transition-all duration-300">
+    <div className="group flex h-auto w-full border-1 border-l-black border-r-black items-center text-accent hover:text-primary border-accent hover:border-neutral-100 rounded-md transition-all duration-300">
       <a
         href="https://github.com/arthurstevens/"
         target="_blank"

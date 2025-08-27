@@ -1,3 +1,10 @@
+const skills = {
+  Programming: ["Python", "Java"],
+  Frontend: ["React", "TypeScript/JavaScript", "EJS", "Tailwind CSS"],
+  Backend: ["Go", "TypeScript/JavaScript (Node.js)"],
+  Databases: ["PostgreSQL", "SQLite"],
+};
+
 const Terminal = () => {
   return (
     <div className="bg-card border border-accent/30 rounded p-6 mx-auto min-w-lg max-w-md text-sm backdrop-blur-sm">
@@ -11,9 +18,24 @@ const Terminal = () => {
         <div className="text-accent">$ whoami</div>
         <div className="text-primary">arthur_srodzinski-stevens</div>
         <div className="text-secondary">// Skills...</div>
-        <div className="text-primary">const skills = [</div>
-        <div className="pl-4 text-accent">'Java', 'Python', 'Go', 'SQL', ...</div>
-        <div className="text-primary">];</div>
+        <div className="text-primary">const skills = {'{'}</div>
+        <div className="pl-6">
+          {Object.entries(skills).map(([category, items]) => (
+            <div key={category} className="text-accent">
+              <span className="text-secondary">"{category}"</span>
+              <span>: [</span>
+              <span className="text-muted">
+                {items.map((item, i) => (
+                  <span key={i}>
+                    "{item}"{i < items.length - 1 ? ", " : ""}
+                  </span>
+                ))}
+              </span>
+              <span>],</span>
+            </div>
+          ))}
+        </div>
+        <div className="text-primary">{'}'};</div>
         <div className="text-secondary">
           Status: <span className="text-accent">LEARNING</span>
         </div>

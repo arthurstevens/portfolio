@@ -2,11 +2,11 @@ import EducationCard from "./ui/EducationCard"
 
 const About = () => {
   return (
-    <section id="about" className="relative flex justify-center w-full min-h-screen p-5 text-primary">
+    <section id="about" className="flex justify-center w-full min-h-screen p-5 text-primary">
       <div className="max-w-6xl">
         {/* Title */}
         <div className="flex flex-col items-center mt-20 mb-15">
-          <h2 className="text-3xl font-bold mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-xl text-secondary max-w-2xl mx-auto text-center">
             A passionate computer science student with a hunger to listen, practice, and create.
           </p>

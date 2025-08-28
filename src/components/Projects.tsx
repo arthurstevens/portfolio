@@ -4,32 +4,32 @@ import Code from "./ui/icons/Code"
 
 const projectData: Project[] = [
   {
-    "title" : "Project 1",
-    "description" : "Some project about something random",
-    "tools" : ["react", "something else", "whoop"],
-    "linkGit" : "1",
+    "title" : "Water Warden",
+    "description" : "A web-based monitoring tool designed to track and analyse water supply, designed for the Engineering For People Design Challenege 2024-2025. It demonstrates integration between frontend rendering and backend logic, with an emphasis on data visualisation and reporting.",
+    "tools" : ["JavaScript", "EJS", "Python"],
+    "linkGit" : "https://github.com/arthurstevens/water-warden",
     "linkDemo" : ""
   },
   {
-    "title" : "Project 2",
-    "description" : "Another supposed project???",
-    "tools" : ["js"],
-    "linkGit" : "1",
+    "title" : "Custom Load Balancer",
+    "description" : "A lightweight load balancer with interchangeable algorithms. This project explores concurrency, fault tolerance, and performance testing to better understand systems-level problem solving.",
+    "tools" : ["Go", "Docker"],
+    "linkGit" : "https://github.com/TresMichitos/custom-load-balancer",
     "linkDemo" : ""
   },
   {
-    "title" : "Project 3",
-    "description" : "Wow, very compelling project numero tres!!",
-    "tools" : ["python", "java"],
-    "linkGit" : "1",
+    "title" : "Exam Management System",
+    "description" : "A backend-driven system for scheduling, managing, and storing exam information for students. Implemented using Python and PL/pgSQL, it provides automated workflows and structured database interactions, with a focus on consistency in data handling and heavy business logic.",
+    "tools" : ["Python", "PLpgSQL"],
+    "linkGit" : "https://github.com/arthurstevens/exam-management-system",
     "linkDemo" : ""
   },
   {
-    "title" : "Project 4",
-    "description" : "And finally, a fourth...",
-    "tools" : ["react", "something else", "whoop"],
-    "linkGit" : "1",
-    "linkDemo" : "there isn't one"
+    "title" : "Arcade Simulator",
+    "description" : "A Java-based simulator replicating an arcade. It highlights object-oriented design, event-driven programming, and thoughtful design",
+    "tools" : ["Java"],
+    "linkGit" : "https://github.com/arthurstevens/uea-arcade-simulator",
+    "linkDemo" : ""
   }
 ]
 

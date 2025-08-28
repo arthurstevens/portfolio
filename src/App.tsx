@@ -9,11 +9,11 @@ function App() {
   return (
     <div className="min-h-screen bg-background-primary">
       <Header />
-      <main className="min-h-screen">
+      <main className="min-h-screen w-screen">
         <Home />
-        <About />
+        {/* <About />
         <Projects />
-        <Contact />
+        <Contact /> */}
       </main>
       <hr className="max-w-7xl border-t-1 border-secondary mx-auto" />
       <Footer />

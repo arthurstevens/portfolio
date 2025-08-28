@@ -7,7 +7,7 @@ const skills = {
 
 const Terminal = () => {
   return (
-    <div className="bg-card border border-accent/30 rounded p-6 mx-auto min-w-lg max-w-md text-sm backdrop-blur-sm">
+    <div className="bg-card border border-accent/30 rounded p-6 mx-auto w-full max-w-md text-sm backdrop-blur-sm">  
       <div className="flex items-center space-x-2 mb-4 pb-2 border-b border-border">
         <div className="w-2 h-2 rounded-full bg-red-300" />
         <div className="w-2 h-2 rounded-full bg-orange-300" />

@@ -34,7 +34,7 @@ const ProjectCard = ({ project:
           href={linkDemo}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center w-min space-x-2 px-3 py-1.5 border-1 border-primary/50 rounded-md text-sm font-medium text-black bg-accent hover:bg-accent/70"
+          className="flex items-center justify-center w-min space-x-2 px-3 py-1.5 rounded-md text-sm font-medium text-black bg-accent hover:bg-accent/70"
         >
           <Website size={16}/>
           <span>Code</span>

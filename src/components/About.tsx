@@ -1,4 +1,5 @@
 import EducationCard from './ui/EducationCard';
+import headshot from '/headshot.jpg'
 
 const About = () => (
   <section id="about" className="flex justify-center min-h-screen p-5 text-primary">
@@ -18,7 +19,7 @@ const About = () => (
         <div className="flex justify-center items-center">
           <img 
             alt="Headshot"
-            src="src/assets/headshot.jpg"
+            src={headshot}
             className="border-5 border-accent/80 rounded-xl max-w-full sm:max-w-md max-h-[400px] h-auto object-contain shadow-[0_0_15px_theme(colors.accent)]"
           />
         </div>

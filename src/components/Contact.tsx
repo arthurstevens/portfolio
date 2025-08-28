@@ -20,6 +20,10 @@ const About = () => {
           <div className="space-y-4">
             <ContactInformation />
             <Connections />
+            <div className="flex flex-col text-center justify-center items-center bg-accent text-black rounded-lg p-5 w-full">
+              <h4 className="text-lg font-semibold mb-4">Interested in collaborating?</h4>
+              <p>I'm always excited to work on new projects and learn from experienced developers.</p>
+            </div>
           </div>
         </div>
       </div>

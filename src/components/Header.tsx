@@ -1,5 +1,5 @@
-import Code from './ui/icons/Code.tsx'
-import Navbar from './ui/Navbar.tsx'
+import Code from './ui/icons/Code';
+import Navbar from './ui/Navbar';
 
 const Header = () => {
   const sections = [
@@ -23,7 +23,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
 export default Header

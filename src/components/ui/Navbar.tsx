@@ -1,10 +1,9 @@
-import type { NavItem } from "../../types.ts"
-import { useState } from "react";
-import Menu from './icons/Menu'
-import Cross from './icons/Cross'
+import { useState } from 'react';
+import type { NavItem } from '../../types.ts';
+import Menu from './icons/Menu';
+import Cross from './icons/Cross';
 
-
-export default function Navbar({ sections }: { sections: NavItem[] }) {
+const Navbar = ({ sections }: { sections: NavItem[] }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -31,7 +30,7 @@ export default function Navbar({ sections }: { sections: NavItem[] }) {
 
       {/* Mobile menu*/}
       {isOpen && (
-        <ul className="fixed top-0 left-0 w-full h-screen text-primary bg-background-accent/80 flex flex-col justify-center items-center z-30 sm:hidden divide-y divide-border">
+        <ul className="fixed top-0 left-0 w-full h-screen text-primary bg-background-accent/85 flex flex-col justify-center items-center z-30 sm:hidden divide-y divide-border">
           {sections.map((section) => (
             <li
               key={section.id}
@@ -49,4 +48,6 @@ export default function Navbar({ sections }: { sections: NavItem[] }) {
       )}
     </nav>
   );
-}
+};
+
+export default Navbar

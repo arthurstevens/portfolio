@@ -1,6 +1,6 @@
-import type { Project } from "../../types.ts";
-import GitHub from "./icons/GitHub.tsx"
-import Website from "./icons/Website.tsx"
+import type { Project } from '../../types';
+import GitHub from './icons/GitHub';
+import Website from './icons/Website';
 
 type ProjectCardProps = {
   project: Project;
@@ -10,13 +10,18 @@ const ProjectCard = ({ project:
   { title, description, tools, linkGit, linkDemo }
 }: ProjectCardProps) => (
   <div className="flex flex-col p-10 rounded-lg border-1 h-full border-border hover:border-accent transition duration-100 ease-in">
+    {/* Heading */}
     <h4 className="text-xl font-semibold mb-1">{ title }</h4>
+
+    {/* Content */}
     <p className="text-secondary mb-4">{ description }</p>
     <ul className="flex space-x-2 mb-3">
       {tools.map(tool => (
         <li className="text-primary text-sm text-center px-2 py-0.5 rounded-md bg-secondary/35">{ tool }</li>
       ))}
     </ul>
+
+    {/* Links */}
     <div className="flex space-x-2">
       {linkGit && 
         <a
@@ -29,6 +34,7 @@ const ProjectCard = ({ project:
           <span>Code</span>
         </a>
       }
+
       {linkDemo &&
         <a
           href={linkDemo}
@@ -40,8 +46,9 @@ const ProjectCard = ({ project:
           <span>Code</span>
         </a>
       }
+      
     </div>
   </div>
-)
+);
 
 export default ProjectCard

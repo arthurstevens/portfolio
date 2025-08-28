@@ -1,11 +1,13 @@
-import GitHub from './icons/GitHub'
-import LinkedIn from './icons/LinkedIn'
+import GitHub from './icons/GitHub';
+import LinkedIn from './icons/LinkedIn';
 
 const Connections = () => (
   <div className="border-1 border-border rounded-lg p-5 w-full">
+    {/* Heading */}
     <h4 className="text-lg font-semibold text-primary mb-4">Connect with me</h4>
     <ul>
-      {/* Email */}
+
+      {/* GitHub */}
       <li className="flex items-center gap-4 mb-2">
         <div className="bg-accent/15 rounded-md w-min p-1 text-accent">
           <GitHub />
@@ -22,7 +24,8 @@ const Connections = () => (
           </a>
         </div>
       </li>
-      {/* Location */}
+
+      {/* LinkedIn */}
       <li className="flex items-center gap-4 mb-2">
         <div className="bg-accent/15 rounded-md w-min p-1 text-accent">
           <LinkedIn />
@@ -39,9 +42,10 @@ const Connections = () => (
           </a>
         </div>
       </li>
+
     </ul>
   </div>
-)
+);
 
 export default Connections
 

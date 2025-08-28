@@ -1,10 +1,12 @@
-import Email from './icons/Email'
-import Location from './icons/Location'
+import Email from './icons/Email';
+import Location from './icons/Location';
 
 const ContactInformation = () => (
   <div className="border-1 border-border rounded-lg p-5 w-full">
+    {/* Heading */}
     <h4 className="text-lg font-semibold text-primary mb-4">Contact Information</h4>
     <ul>
+
       {/* Email */}
       <li className="flex items-center gap-4 mb-2">
         <div className="bg-accent/15 rounded-md w-min p-1 text-accent">
@@ -20,6 +22,7 @@ const ContactInformation = () => (
           </a>
         </div>
       </li>
+
       {/* Location */}
       <li className="flex items-center gap-4 mb-2">
         <div className="bg-accent/15 rounded-md w-min p-1 text-accent">
@@ -30,8 +33,9 @@ const ContactInformation = () => (
           <span className="text-secondary">Cambridge, UK</span>
         </div>
       </li>
+
     </ul>
   </div>
-)
+);
 
 export default ContactInformation

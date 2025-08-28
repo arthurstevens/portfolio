@@ -15,7 +15,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
-      <hr className="max-w-7xl border-t-1 border-secondary mx-auto" />
+      <hr className="border-t-1 border-secondary mx-auto" />
       <Footer />
     </div>
   )

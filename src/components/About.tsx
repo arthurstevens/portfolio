@@ -2,8 +2,8 @@ import EducationCard from "./ui/EducationCard"
 
 const About = () => {
   return (
-    <section id="about" className="flex justify-center w-full min-h-screen p-5 text-primary">
-      <div className="max-w-6xl">
+    <section id="about" className="flex justify-center min-h-screen p-5 text-primary">
+      <div className="w-full max-w-5xl">
         {/* Title */}
         <div className="flex flex-col items-center mt-20 mb-15">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
@@ -11,18 +11,20 @@ const About = () => {
             A passionate computer science student with a hunger to listen, practice, and create.
           </p>
         </div>
+
         {/* Content */}
-        <div className="flex space-x-15">
+        <div className="grid sm:grid-cols-2 gap-6">
           {/* Left */}
-          <div className="w-1/2 flex items-center justify-center">
+          <div className="flex justify-center items-center">
             <img 
               alt="Headshot"
               src="src/assets/headshot.jpg"
-              className="border-5 border-accent/80 rounded-xl max-w-md shadow-[0_0_15px_theme(colors.accent)]"
+              className="border-5 border-accent/80 rounded-xl max-w-full sm:max-w-md max-h-[400px] h-auto object-contain shadow-[0_0_15px_theme(colors.accent)]"
             />
           </div>
+
           {/* Right */}
-          <div className="w-1/2 space-y-3">
+          <div className="space-y-3 sm:pl-6">
             <h3 className="text-2xl font-semibold">Hello! I'm Arthur.</h3>
             <p className="text-secondary">
               I'm a second year computer science student at University with a passion for problem solving, 

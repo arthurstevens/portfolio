@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="flex justify-center mt-auto text-primary">
+        <footer className="flex justify-center mt-auto text-secondary pt-5 pb-5">
             &copy; {new Date().getFullYear()} Arthur Srodzinski-Stevens. All rights reserved.
         </footer>
     )

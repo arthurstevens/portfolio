@@ -1,4 +1,4 @@
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
@@ -15,6 +15,8 @@ function App() {
         <Projects />
         <Contact />
       </main>
+      <hr className="max-w-7xl border-t-1 border-secondary mx-auto" />
+      <Footer />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import Code from './ui/icons/Code.tsx'
+import Navbar from './ui/Navbar.tsx'
 
 const Header = () => {
   const sections = [
@@ -11,21 +12,15 @@ const Header = () => {
   return (
     <header className="fixed top-0 w-full py-4 z-20 bg-background-accent border-b border-border">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-2">
-        <div className="flex space-x-1.5">
-          <Code className="h-8 w-8 text-accent" />
-          <span className="text-primary font-bold text-xl">Arthur Srodzinski-Stevens</span>
+        <div className="flex items-center space-x-1.5 sm:w-1/2">
+          <Code className="h-7 w-7 sm:h-8 sm:w-8 text-accent" />
+          <span className="text-primary font-bold text-lg text-nowrap sm:text-xl">
+            Arthur Srodzinski-Stevens
+          </span>
         </div>
-        <nav className="w-1/2">
-          <ul className="flex w-full justify-evenly">
-            {sections.map((section) => (
-              <li key={section.id} className="cursor-pointer font-bold text-secondary hover:text-accent transition-colors duration-500 ease-in-out">
-                <a href={`#${section.id}`}>
-                  {section.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <div className="sm:w-1/2">
+          <Navbar sections={sections} />
+        </div>
       </div>
     </header>
   )

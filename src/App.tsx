@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen bg-background-primary">
       <Header />
-      <main>
+      <main className="min-h-screen">
         <Home />
         <About />
         <Projects />

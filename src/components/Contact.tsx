@@ -1,5 +1,6 @@
 import ContactForm from './ui/ContactForm'
 import ContactInformation from './ui/ContactInformation'
+import Connections from './ui/Connections'
 
 const About = () => {
   return (
@@ -16,8 +17,9 @@ const About = () => {
           <div>
             <ContactForm />
           </div>
-          <div>
+          <div className="space-y-4">
             <ContactInformation />
+            <Connections />
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import Email from './icons/Email'
 import Location from './icons/Location'
 
 const ContactInformation = () => (
-  <div className="border-1 border-border rounded-lg p-5 w-max">
+  <div className="border-1 border-border rounded-lg p-5 w-full">
     <h4 className="text-lg font-semibold text-primary mb-4">Contact Information</h4>
     <ul>
       {/* Email */}

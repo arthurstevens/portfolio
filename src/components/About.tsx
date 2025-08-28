@@ -25,7 +25,7 @@ const About = () => {
           <div className="w-1/2 space-y-3">
             <h3 className="text-2xl font-semibold">Hello! I'm Arthur.</h3>
             <p className="text-secondary">
-              I'm a second year computer sccience student at University with a passion for problem solving, 
+              I'm a second year computer science student at University with a passion for problem solving, 
               creating innovative solutions. My journey in computing began with my incessant questioning — 
               great for me, a grievance for others, landing me on the internet.
               <br /><br />

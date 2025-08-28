@@ -44,7 +44,7 @@ const Projects = () => (
       <p className="text-secondary max-w-2xl mb-10">
         A collection of systems and tools showcasing technical problem solving.
       </p>
-      <ul className="grid grid-cols-2 gap-4 mb-20">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-20">
           {projectData.map(project => (
             <li>
               <ProjectCard project={project} />

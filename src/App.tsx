@@ -12,7 +12,7 @@ function App() {
       <main className="min-h-screen w-screen">
         <Home />
         <About />
-        {/* <Projects /> */}
+        <Projects />
         {/* <Contact /> */}
       </main>
       <hr className="max-w-7xl border-t-1 border-secondary mx-auto" />

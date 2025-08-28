@@ -13,7 +13,7 @@ function App() {
         <Home />
         <About />
         <Projects />
-        {/* <Contact /> */}
+        <Contact />
       </main>
       <hr className="max-w-7xl border-t-1 border-secondary mx-auto" />
       <Footer />

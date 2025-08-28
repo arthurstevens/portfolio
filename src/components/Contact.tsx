@@ -13,7 +13,7 @@ const About = () => {
             I'm always open to discussing new opportunities, collaborations, or just having a chat about technology.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div>
             <ContactForm />
           </div>

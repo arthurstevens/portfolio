@@ -29,12 +29,12 @@ const About = () => (
           <h3 className="text-2xl font-semibold">Hello! I'm Arthur.</h3>
           {/* About */}
           <p className="text-secondary">
-            I'm a second year computer science student at University with a passion for problem solving, 
+            I'm a second-year computer science student at university, with a passion for problem solving and
             creating innovative solutions. My journey in computing began with my incessant questioning — 
-            great for me, a grievance for others, landing me on the internet.
+            great for me, a grievance for others — landing me on the internet.
             <br /><br />
-            This root grew into the deep love I have for tech today. Impactful solutions, inventive
-            experiences. I have solved issues for myself, my friends and family, and I hope to extend that 
+            This root grew into the deep love I have for tech today. Impactful solutions and inventive
+            experiences. I have solved issues for myself, my friends and family, and I want to extend that 
             reach.
           </p>
 

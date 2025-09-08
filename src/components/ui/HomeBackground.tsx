@@ -3,10 +3,10 @@ import bgImage from '/bg-eva.png';
 import './HomeBackground.css';
 
 const HomeBackground: React.FC = () => (
-  <div className="overflow-hidden h-screen w-screen">
+  <div className="absolute inset-0 overflow-hidden">
     <img
       src={bgImage}
-      className="overflow-hidden feather-opacity"
+      className="w-full h-full object-cover feather-opacity"
     />
   </div>
 );

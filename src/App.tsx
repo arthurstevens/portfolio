@@ -6,9 +6,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 const App = () => (
-  <div className="min-h-screen bg-background-primary">
+  <div className="min-h-full bg-background-primary">
     <Header />
-    <main className="min-h-screen w-screen">
+    <main className="min-h-full w-full">
       <Home />
       <About />
       <Projects />

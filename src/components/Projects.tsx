@@ -35,7 +35,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="flex justify-center w-full min-h-screen p-5 text-primary">
+    <section id="projects" className="flex justify-center w-full min-h-full p-5 text-primary">
       <div className="w-6xl mt-20 mb-15">
 
         {/* Heading */}

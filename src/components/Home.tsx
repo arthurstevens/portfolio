@@ -5,7 +5,7 @@ import Code from './ui/icons/Code';
 import ArrowDown from './ui/icons/ArrowDown';
 
 const Home = () => (
-  <section id="home" className="relative w-full h-screen flex items-center justify-center">
+  <section id="home" className="relative w-full min-h-[max(100vh,800px)] flex items-center justify-center">
     <HomeBackground />
     <div className="absolute text-center text-primary w-full max-w-4xl mx-auto px-4 sm:px-6">
       <div className="flex flex-col items-center space-y-10">

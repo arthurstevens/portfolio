@@ -2,7 +2,7 @@ import EducationCard from './ui/EducationCard';
 import headshot from '/headshot.jpg'
 
 const About = () => (
-  <section id="about" className="flex justify-center min-h-screen p-5 text-primary">
+  <section id="about" className="flex justify-center min-h-full p-5 text-primary">
     <div className="w-full max-w-5xl">
 
       {/* Title */}

@@ -9,7 +9,10 @@ const EducationCard = () => (
     <p className="font-medium">Bachelor of Science in Computing Science</p>
     <p className="text-secondary">University of East Anglia • 2024-2028</p>
     <p className="text-secondary text-sm">
-      Relevant Coursework: Database Systems, Programming (Java OOP), Advanced Mathematics, Web-Based Programming, Principles of Computing
+      <strong>Relevant Coursework:</strong> Database Systems, Programming (Java OOP), Advanced Mathematics, Web-Based Programming, Principles of Computing
+    </p>
+    <p className="text-secondary text-sm">
+      Currently building skills in backend systems, full-stack development, and systems-level problem solving through hands-on projects.
     </p>
   </div>
 );

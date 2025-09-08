@@ -23,7 +23,7 @@ const Home = () => (
 
           {/* Subtext */}
           <p className="text-lg sm:text-xl text-secondary max-w-2xl mx-auto">
-            Computer Science Student — building for my future.
+            Computer Science student — building full-stack and systems-level solutions.
           </p>
         </div>
         <Terminal />

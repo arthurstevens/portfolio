@@ -1,9 +1,9 @@
 const Terminal = () => {
   const skills = {
-    Programming: ["Python", "Java"],
-    Frontend: ["React", "TypeScript/JavaScript", "EJS", "Tailwind CSS"],
     Backend: ["Go", "TypeScript/JavaScript (Node.js)"],
+    Frontend: ["React", "TypeScript/JavaScript", "EJS", "Tailwind CSS"],
     Databases: ["PostgreSQL", "SQLite"],
+    Programming: ["Python", "Java"],
   };
 
   return (
@@ -44,7 +44,7 @@ const Terminal = () => {
 
         <div className="text-primary">{'}'};</div>
         <div className="text-secondary">
-          Status: <span className="text-accent">LEARNING</span>
+          Status: <span className="text-accent">Building and tinkering... 🔧</span>
         </div>
 
         {/* Cursor */}

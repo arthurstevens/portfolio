@@ -43,7 +43,7 @@ const ProjectCard = ({ project:
           className="flex items-center justify-center w-min space-x-2 px-3 py-1.5 rounded-md text-sm font-medium text-black bg-accent hover:bg-accent/70"
         >
           <Website size={16}/>
-          <span>Code</span>
+          <span>Demo</span>
         </a>
       }
       

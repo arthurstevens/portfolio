@@ -9,7 +9,7 @@ const Projects = () => {
       "description" : "A web-based monitoring tool designed to track and analyse water supply, designed for the Engineering For People Design Challenege 2024-2025. It demonstrates integration between frontend rendering and backend logic, with an emphasis on data visualisation and reporting.",
       "tools" : ["JavaScript", "EJS", "Python"],
       "linkGit" : "https://github.com/arthurstevens/water-warden",
-      "linkDemo" : ""
+      "linkDemo" : "https://github.com/arthurstevens/water-warden#Showcase"
     },
     {
       "title" : "Custom Load Balancer",
@@ -23,7 +23,7 @@ const Projects = () => {
       "description" : "A backend-driven system for scheduling, managing, and storing exam information for students. Implemented using Python and PL/pgSQL, it provides automated workflows and structured database interactions, with a focus on consistency in data handling and heavy business logic.",
       "tools" : ["Python", "PLpgSQL"],
       "linkGit" : "https://github.com/arthurstevens/exam-management-system",
-      "linkDemo" : ""
+      "linkDemo" : "https://github.com/arthurstevens/exam-management-system#Showcase"
     },
     {
       "title" : "Arcade Simulator",

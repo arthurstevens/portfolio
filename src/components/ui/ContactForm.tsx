@@ -22,6 +22,7 @@ const ContactForm = () => (
           <input 
             name="name"
             placeholder="Your name"
+            required
             className="flex w-full mt-1 border border-border rounded-sm px-3 py-1 focus:border-accent focus:ring-accent/50 focus:ring-[3px] focus:outline-none transition duration-150"
           />
         </label>
@@ -32,6 +33,7 @@ const ContactForm = () => (
           <input 
             type="email" 
             name="email" 
+            required
             placeholder="your.name@example.com"
             className="flex w-full mt-1 border border-border rounded-sm px-3 py-1 focus:border-accent focus:ring-accent/50 focus:ring-[3px] focus:outline-none transition duration-150"
           />
@@ -44,6 +46,7 @@ const ContactForm = () => (
         <input 
           name="subject" 
           placeholder="What's this about?"
+          required
           className="flex w-full mt-1 border border-border rounded-sm px-3 py-1 focus:border-accent focus:ring-accent/50 focus:ring-[3px] focus:outline-none transition duration-150"
         />
       </label>
@@ -54,6 +57,7 @@ const ContactForm = () => (
         <textarea 
           name="message" 
           placeholder="Tell me about your project or just say hello!"
+          required
           className="flex w-full mt-1 min-h-32 border border-border rounded-sm px-3 py-1 focus:border-accent focus:ring-accent/50 focus:ring-[3px] focus:outline-none transition duration-150"
         />
       </label>

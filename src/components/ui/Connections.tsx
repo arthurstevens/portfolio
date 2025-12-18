@@ -2,7 +2,7 @@ import GitHub from './icons/GitHub';
 import LinkedIn from './icons/LinkedIn';
 
 const Connections = () => (
-  <div className="border-1 border-border rounded-lg p-5 w-full">
+  <div className="border-2 border-border rounded-lg p-5 w-full">
     {/* Heading */}
     <h4 className="text-lg font-semibold text-primary mb-4">Connect with me</h4>
     <ul>

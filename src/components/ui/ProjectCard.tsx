@@ -9,7 +9,7 @@ type ProjectCardProps = {
 const ProjectCard = ({ project:
   { title, description, tools, linkGit, linkDemo }
 }: ProjectCardProps) => (
-  <div className="flex flex-col p-10 rounded-lg border-1 h-full border-border hover:border-accent transition duration-100 ease-in">
+  <div className="flex flex-col p-10 rounded-lg border-2 hover:shadow-[0_0_10px_theme(colors.accent)] hover:-translate-y-1 h-full border-border hover:border-accent transition duration-100 ease-in">
     {/* Heading */}
     <h4 className="text-xl font-semibold mb-1">{ title }</h4>
 

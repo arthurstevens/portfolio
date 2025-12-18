@@ -1,7 +1,7 @@
 import SendMessage from './icons/SendMessage';
 
 const ContactForm = () => (
-  <div className="border-1 border-border h-full rounded-lg p-5 w-full">
+  <div className="border-2 border-border h-full rounded-lg p-5 w-full">
     {/* Heading */}
     <h4 className="flex gap-2 items-center text-lg font-semibold text-accent mb-4">
       <SendMessage size={32} />

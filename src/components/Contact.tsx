@@ -3,7 +3,7 @@ import ContactInformation from './ui/ContactInformation';
 import Connections from './ui/Connections';
 
 const Contact = () => (
-  <section id="contact" className="flex justify-center w-full min-h-full p-5 text-primary">
+  <section id="contact" className="flex justify-center w-full min-h-full p-5 mb-5 text-primary">
     <div className="max-w-6xl">
 
       {/* Title */}

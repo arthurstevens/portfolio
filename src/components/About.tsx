@@ -14,24 +14,24 @@ const About = () => (
       </div>
 
       {/* Content */}
-      <div className="grid sm:grid-cols-2 gap-6 justify-items-center">
+      <div className="grid sm:grid-cols-2 gap-6 justify-items-center w-auto">
         {/* Left */}
         <div className="flex align-middle justify-center items-center flex-col max-w-[450px]">
           <img 
             alt="Headshot"
             src={headshot}
-            className="border-5 border-accent/80 rounded-xl max-w-full sm:max-w-md max-h-[450px] h-auto object-contain shadow-[0_0_15px_theme(colors.accent)]"
+            className="border-2 border-accent/80 rounded-xl max-w-full sm:max-w-md max-h-[450px] h-auto object-contain shadow-[0_0_10px_theme(colors.accent)]"
           />
 
           {/* Education */}
-          <div className="mt-4 mb-4">
+          <div className="mt-4">
             <EducationCard />
           </div>
         </div>
 
         {/* Right */}
-        <div className="space-y-3 sm:pl-6">
-          <h3 className="text-2xl font-semibold">Hello! I'm Arthur.</h3>
+        <div className="space-y-3 p-6 items-center justifty-center flex-col border-2 border-border shadow-[0_0_10px_theme(colors.border)] rounded-lg">
+          <h3 className="text-2xl font-semibold text-shadow-[0_0px_10px_theme(colors.primary)]">Hello! I'm Arthur.</h3>
           {/* About */}
           <p className="text-secondary">
             I am learning <strong>full-stack</strong> and <strong>systems-level solutions</strong>, with experience in building backend systems, databases, and 
@@ -52,7 +52,7 @@ const About = () => (
           <div className="space-y-2">
             <h4 className="text-lg font-semibold">Other Interests</h4>
             <p className="text-secondary">
-              When I'm not exploring new or old technologies, you'll find me adventuring ⛰️, working out in the gym 🏋️, or enjoying a cosy night in ☕.
+              When I'm not exploring new or old technologies, you'll find me working out in the gym 🏋️, adventuring ⛰️, or enjoying a cosy night in ☕😴.
             </p>
           </div>
         </div>

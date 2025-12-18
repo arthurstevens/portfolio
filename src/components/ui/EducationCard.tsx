@@ -1,7 +1,7 @@
 import Education from './icons/Education';
 
 const EducationCard = () => (
-  <div className="flex flex-col space-y-3 justify-center p-6 rounded-lg border-1 border-border">
+  <div className="flex flex-col space-y-3 justify-center p-6 rounded-lg border-2 border-border shadow-[0_0_10px_theme(colors.border)]">
     <div className="flex space-x-3 text-accent">
       <Education />
       <h4 className="text-lg font-semibold text-primary">Education</h4>

@@ -9,7 +9,7 @@ const Socials = () => (
       href="https://github.com/arthurstevens/"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex justify-center rounded-l-md cursor-pointer flex-1 py-2 hover:bg-neutral-100 hover:text-black hover:shadow-[0_0_15px_theme(colors.primary)] transition-all duration-300 ease-in-out"
+      className="flex justify-center rounded-l-md cursor-pointer flex-1 py-3 hover:bg-neutral-100 hover:text-black hover:shadow-[0_0_15px_theme(colors.primary)] transition-all duration-300 ease-in-out"
     >
       <GitHub size={28} />
     </a>
@@ -19,7 +19,7 @@ const Socials = () => (
     {/* Email */}
     <a
       href="mailto:arthursrodzisnkistevens@gmail.com"
-      className="flex justify-center cursor-pointer flex-1 py-2 hover:bg-neutral-100 hover:text-black  hover:shadow-[0_0_15px_theme(colors.primary)] transition-all duration-300 ease-in-out"
+      className="flex justify-center cursor-pointer flex-1 py-3 hover:bg-neutral-100 hover:text-black  hover:shadow-[0_0_15px_theme(colors.primary)] transition-all duration-300 ease-in-out"
     >
       <Email size={28} />
     </a>
@@ -31,7 +31,7 @@ const Socials = () => (
       href="https://www.linkedin.com/in/arthur-srodzinski-stevens-2bab09350/"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex justify-center rounded-r-md cursor-pointer flex-1 py-2 hover:bg-neutral-100 hover:text-black  hover:shadow-[0_0_15px_theme(colors.primary)] transition-all duration-300 ease-in-out"
+      className="flex justify-center rounded-r-md cursor-pointer flex-1 py-3 hover:bg-neutral-100 hover:text-black  hover:shadow-[0_0_15px_theme(colors.primary)] transition-all duration-300 ease-in-out"
     >
       <LinkedIn size={28} />
     </a>

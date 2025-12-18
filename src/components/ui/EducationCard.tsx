@@ -11,10 +11,10 @@ const EducationCard = () => (
     <p className="font-medium">Bachelor of Science in Computer Science</p>
     <p className="text-secondary">University of East Anglia • 2024-2028</p>
     <p className="text-secondary text-sm">
-      <strong>Relevant Coursework:</strong> Database Systems, Programming (Java OOP), Advanced Mathematics, Web-Based Programming, Principles of Computing
+      <strong>Modules:</strong> Architectures & Operating Systems, Programming (Java, C, C++), Database Systems (PostgreSQL), Analogue & Digital Electronics, Advanced Mathematics, Web-Based Programming, and Principles of Computing.
     </p>
     <p className="text-secondary text-sm">
-      Currently building skills in backend systems, full-stack development, and systems-level problem solving through hands-on projects.
+      Currently building skills in system-level problem solving, embedded programming, backend systems, and full-stack development through hands-on projects.
     </p>
 
     {/* A-Levels */}

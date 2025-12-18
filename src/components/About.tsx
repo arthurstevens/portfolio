@@ -14,14 +14,19 @@ const About = () => (
       </div>
 
       {/* Content */}
-      <div className="grid sm:grid-cols-2 gap-6">
+      <div className="grid sm:grid-cols-2 gap-6 justify-items-center">
         {/* Left */}
-        <div className="flex justify-center items-center">
+        <div className="flex align-middle justify-center items-center flex-col max-w-[450px]">
           <img 
             alt="Headshot"
             src={headshot}
-            className="border-5 border-accent/80 rounded-xl max-w-full sm:max-w-md max-h-[400px] h-auto object-contain shadow-[0_0_15px_theme(colors.accent)]"
+            className="border-5 border-accent/80 rounded-xl max-w-full sm:max-w-md max-h-[450px] h-auto object-contain shadow-[0_0_15px_theme(colors.accent)]"
           />
+
+          {/* Education */}
+          <div className="mt-4 mb-4">
+            <EducationCard />
+          </div>
         </div>
 
         {/* Right */}
@@ -29,23 +34,19 @@ const About = () => (
           <h3 className="text-2xl font-semibold">Hello! I'm Arthur.</h3>
           {/* About */}
           <p className="text-secondary">
-            I build <strong>full-stack</strong> and <strong>systems-level solutions</strong>, with experience in backend systems, databases, and 
+            I am learning <strong>full-stack</strong> and <strong>systems-level solutions</strong>, with experience in building backend systems, databases, and 
             deploying applications to cloud.
             <br /><br />
-            I'm a second-year computer science student at university, with a passion for problem solving and
-            creating innovative solutions. My journey in computing began with my endless curiosity — 
-            great for me, a grievance for others — landing me on the internet.
+            I'm a second-year computer science student at university, with a drive for problem solving and
+            creating innovative solutions. My journey in computing began with wanting to know <strong>how</strong> 
+            something operates, not just what it achieves. Perhaps one of my weaknesses, not accepting an interface 
+            and needing to diving into its dependency-hell.
             <br /><br />
-            This root grew into the love I have for tech today. I've applied this curiosity to real projects: 
-            from building a <strong>custom load balancer</strong> exploring concurrency and fault tolerance, to 
-            a <strong>web-based monitoring tool</strong> for data visualisation and reporting. I enjoy taking 
-            complex problems and turning them into clean and functional solutions that make an impact.
+            This curisoity rooted itself and is ever-growing into the love I have for tech today. I've applied this 
+            interest to real projects: from building a <strong>custom load balancer</strong> exploring concurrency, 
+            fault tolerance, and custom CLI tooling, to a <strong>web-based monitoring tool</strong> for data visualisation 
+            and KPIs. I currently enjoy solving day-to-day problems whilst bettering my understanding of low-level systems.
           </p>
-
-          {/* Education */}
-          <div className="mt-4 mb-4">
-            <EducationCard />
-          </div>
 
           {/* Extra */}
           <div className="space-y-2">

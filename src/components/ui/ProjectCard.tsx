@@ -16,8 +16,8 @@ const ProjectCard = ({ project:
     {/* Content */}
     <p className="text-secondary mb-4">{ description }</p>
     <ul className="flex space-x-2 mb-3">
-      {tools.map(tool => (
-        <li className="text-primary text-sm text-center px-2 py-0.5 rounded-md bg-secondary/35">{ tool }</li>
+      {tools.map((tool, i) => (
+        <li key={`${tool}-${i}`} className="text-primary text-sm text-center px-2 py-0.5 rounded-md bg-secondary/35">{ tool }</li>
       ))}
     </ul>
 

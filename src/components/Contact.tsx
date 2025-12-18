@@ -1,6 +1,7 @@
 import ContactForm from './ui/ContactForm';
 import ContactInformation from './ui/ContactInformation';
 import Connections from './ui/Connections';
+import FadeUpSection from './ui/FadeUpSection';
 
 const Contact = () => (
   <section id="contact" className="flex justify-center w-full min-h-full p-5 mb-5 text-primary">
@@ -18,18 +19,26 @@ const Contact = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
         {/* Contact form */}
-        <div>
+        <FadeUpSection>
           <ContactForm />
-        </div>
+        </FadeUpSection>
 
         {/* Other details and fluff */}
         <div className="space-y-4">
-          <ContactInformation />
-          <Connections />
-          <div className="flex flex-col text-center justify-center items-center bg-accent text-black rounded-lg p-5 w-full">
-            <h4 className="text-lg font-semibold mb-4">Interested in collaborating?</h4>
-            <p>I'm always excited to work on new projects and learn from experienced developers.</p>
-          </div>
+          <FadeUpSection>
+            <ContactInformation />
+          </FadeUpSection>
+
+          <FadeUpSection>
+            <Connections />
+          </FadeUpSection>
+
+          <FadeUpSection>
+            <div className="flex flex-col text-center justify-center items-center bg-accent text-black rounded-lg p-5 w-full">
+              <h4 className="text-lg font-semibold mb-4">Interested in collaborating?</h4>
+              <p>I'm always excited to work on new projects and learn from experienced developers.</p>
+            </div>
+          </FadeUpSection>
         </div>
 
       </div>

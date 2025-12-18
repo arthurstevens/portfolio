@@ -1,6 +1,7 @@
 import type { Project } from '../types.ts';
 import ProjectCard from './ui/ProjectCard';
 import Code from './ui/icons/Code';
+import FadeUpSection from './ui/FadeUpSection.tsx';
 
 const Projects = () => {
   const projectData: Project[] = [
@@ -51,13 +52,14 @@ const Projects = () => {
         {/* Project cards */}
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-20">
             {projectData.map(project => (
-              <li>
-                <ProjectCard project={project} />
-              </li>
+              <FadeUpSection key={project.title}>
+                  <ProjectCard project={project} />
+              </FadeUpSection>
             ))}
         </ul>
 
         {/* Git repositories link */}
+        <FadeUpSection>
         <div className="flex justify-center">
           <a
             href="https://github.com/arthurstevens?tab=repositories"
@@ -69,6 +71,7 @@ const Projects = () => {
             <span>View All Projects</span>
           </a>
         </div>
+        </FadeUpSection>
 
       </div>
     </section>

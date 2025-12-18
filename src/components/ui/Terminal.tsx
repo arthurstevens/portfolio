@@ -43,12 +43,11 @@ const Terminal = () => {
           ))}
         </div>
 
-        <div className="text-primary">{'}'};</div>
-        <div className="text-accent">$ systemctl status</div>
-        <div className="text-primary"></div>
-        <div className="text-secondary">
+        <code className="text-primary">{'}'};</code><br/>
+        <code className="text-accent">$ systemctl status</code><br/>
+        <code className="text-secondary">
           Active: <span className="text-accent">active (studying)</span>
-        </div>
+        </code><br/>
 
         {/* Cursor */}
         <div className="text-accent terminal-cursor w-min pr-1">$</div>

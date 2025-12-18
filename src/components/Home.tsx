@@ -14,7 +14,7 @@ const Home = () => (
         <div className="flex flex-col max-w-sm sm:max-w-4xl space-y-5">
 
           {/* Name */}
-          <h1 className="text-3xl sm:text-6xl font-bold tracking-tighter">
+          <h1 className="text-3xl sm:text-5xl font-bold tracking-tighter">
             <span className="text-accent">{"> "}</span> 
             <span className="text-foreground">ARTHUR</span>{" "}
             <span className="text-secondary">SRODZINSKI-STEVENS</span>
@@ -22,8 +22,8 @@ const Home = () => (
           </h1>
 
           {/* Subtext */}
-          <p className="text-lg sm:text-xl text-secondary max-w-2xl mx-auto">
-            Computer Science student — building full-stack and systems-level solutions.
+          <p className="text-lg sm:text-xl text-white/70 max-w-2xl mx-auto">
+            Computer science student studying at UEA, I currently most enjoy learning C and FPGA development.
           </p>
         </div>
         <Terminal />
@@ -37,7 +37,7 @@ const Home = () => (
             className="peer/projects order-1 flex-1 basis-0 box-border text-center cursor-pointer flex items-center justify-center p-2 space-x-1 h-full rounded-md text-black hover:text-primary bg-accent hover:bg-transparent border border-accent hover:border-white transition duration-300 ease-in-out"
           >
             <Code />
-            <span className="font-semibold">View Projects</span>
+            <span className="font-semibold text-lg">View Projects</span>
           </a>
 
           {/* Social links */}

@@ -14,7 +14,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-2">
         <div className="flex items-center space-x-1.5 sm:w-1/2">
           <Code className="h-7 w-7 sm:h-8 sm:w-8 text-accent" />
-          <span className="text-primary font-bold text-lg text-nowrap sm:text-xl">
+          <span className="text-primary font-bold text-lg text-nowrap sm:text-2xl">
             Arthur Srodzinski-Stevens
           </span>
         </div>

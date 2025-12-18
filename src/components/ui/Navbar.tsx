@@ -13,7 +13,7 @@ const Navbar = ({ sections }: { sections: NavItem[] }) => {
         {/* Desktop menu */}
         <ul className="hidden w-full sm:flex justify-evenly">
           {sections.map((section) => (
-            <li key={section.id} className="cursor-pointer hover:text-accent transition-colors duration-300">
+            <li key={section.id} className="cursor-pointer hover:text-accent text-xl transition-colors duration-300">
               <a href={`#${section.id}`}>{section.label}</a>
             </li>
           ))}

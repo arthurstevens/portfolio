@@ -18,7 +18,7 @@ const Home = () => (
             <span className="text-accent">{"> "}</span> 
             <span className="text-foreground">ARTHUR</span>{" "}
             <span className="text-secondary">SRODZINSKI-STEVENS</span>
-            <span className="text-accent animate-pulse">_</span>
+            <span className="text-accent animate-blink">_</span>
           </h1>
 
           {/* Subtext */}

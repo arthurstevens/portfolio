@@ -7,7 +7,7 @@ const Terminal = () => {
   };
 
   return (
-    <div className="bg-card border border-accent/30 rounded pt-1 pb-1 mx-auto w-full max-w-md text-sm backdrop-blur-sm">
+    <div className="bg-card border-2 shadow-[0_0_5px_theme(colors.accent)] border-accent/30 rounded-md pt-1 pb-1 mx-auto w-full max-w-md text-sm backdrop-blur-sm">
       
       {/* Title bar */}
       <div className="flex items-center space-x-2 mb-4 pl-2 pr-2 pb-1 border-b border-accent/20">
@@ -50,7 +50,7 @@ const Terminal = () => {
         </code><br/>
 
         {/* Cursor */}
-        <div className="text-accent terminal-cursor w-min pr-1">$</div>
+        <code className="text-accent w-min">$<span className="animate-blink">|</span></code>
       </div>
     </div>
   );

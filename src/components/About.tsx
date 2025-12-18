@@ -40,7 +40,7 @@ const About = () => (
             I'm a second-year computer science student at university, with a drive for problem solving and
             creating innovative solutions. My journey in computing began with wanting to know <strong>how</strong> 
             something operates, not just what it achieves. Perhaps one of my weaknesses, not accepting an interface 
-            and needing to diving into its dependency-hell.
+            and feeling compelled to dive into its dependency-hell.
             <br /><br />
             This curisoity rooted itself and is ever-growing into the love I have for tech today. I've applied this 
             interest to real projects: from building a <strong>custom load balancer</strong> exploring concurrency, 

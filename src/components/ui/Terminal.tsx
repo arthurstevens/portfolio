@@ -1,54 +1,57 @@
 const Terminal = () => {
-  const skills = {
-    Backend: ["Go", "TypeScript/JavaScript (Node.js)"],
-    Frontend: ["React", "TypeScript/JavaScript", "EJS", "Tailwind CSS"],
+  const tools = {
+    Programming: ["C", "C++", "Python", "Java"],
+    Backend: ["Go", "TS/JS (Node.js)"],
     Databases: ["PostgreSQL", "SQLite"],
-    Programming: ["Python", "Java"],
+    Frontend: ["React", "TS/JS", "EJS", "Tailwind"],
   };
 
   return (
-    <div className="bg-card border border-accent/30 rounded p-6 mx-auto w-full max-w-md text-sm backdrop-blur-sm">
+    <div className="bg-card border border-accent/30 rounded pt-1 pb-1 mx-auto w-full max-w-md text-sm backdrop-blur-sm">
       
       {/* Title bar */}
-      <div className="flex items-center space-x-2 mb-4 pb-2 border-b border-border">
+      <div className="flex items-center space-x-2 mb-4 pl-2 pr-2 pb-1 border-b border-accent/20">
         <div className="w-2 h-2 rounded-full bg-red-300" />
         <div className="w-2 h-2 rounded-full bg-orange-300" />
-        <div className="w-2 h-2 rounded-full bg-accent" />
-        <span className="text-secondary text-xs ml-2">terminal</span>
+        <div className="w-2 h-2 rounded-full bg-green-600" />
+        <code className="text-secondary text-s ml-2">kitty</code>
       </div>
 
       {/* Content */}
-      <div className="text-left space-y-1">
-        <div className="text-accent">$ whoami</div>
-        <div className="text-primary">arthur_srodzinski-stevens</div>
-        <div className="text-secondary">// Skills...</div>
-        <div className="text-primary">const skills = {'{'}</div>
+      <div className="text-left space-y-1 pl-3 pr-3 pb-1">
+        <code className="text-accent">$ whoami</code><br/>
+        <code className="text-primary">arthur_srodzinski-stevens</code><br/>
+        <code className="text-accent">{'$ echo "${toolkit[@]}";'}</code><br/>
+        <code className="text-secondary text-s">// suspiciously incorrect bash...</code><br/>
+        <code className="text-primary">toolkit = {'{'}</code><br/>
 
-        {/* Skills */}
-        <div className="pl-6">
-          {Object.entries(skills).map(([category, items]) => (
+        {/* Toolkit */}
+        <div className="pl-3">
+          {Object.entries(tools).map(([category, items]) => (
             <div key={category} className="text-accent">
-              <span className="text-secondary">"{category}"</span>
-              <span>: [</span>
-              <span className="text-muted">
+              <code className="text-secondary">{category}</code>
+              <code>: [</code>
+              <code className="text-muted">
                 {items.map((item, i) => (
-                  <span key={i}>
-                    "{item}"{i < items.length - 1 ? ", " : ""}
-                  </span>
+                  <code key={i}>
+                    '{item}'{i < items.length - 1 ? ", " : ""}
+                  </code>
                 ))}
-              </span>
-              <span>],</span>
+              </code>
+              <code>],</code>
             </div>
           ))}
         </div>
 
         <div className="text-primary">{'}'};</div>
+        <div className="text-accent">$ systemctl status</div>
+        <div className="text-primary"></div>
         <div className="text-secondary">
-          Status: <span className="text-accent">Building and tinkering... 🔧</span>
+          Active: <span className="text-accent">active (studying)</span>
         </div>
 
         {/* Cursor */}
-        <div className="text-accent terminal-cursor w-min">$</div>
+        <div className="text-accent terminal-cursor w-min pr-1">$</div>
       </div>
     </div>
   );

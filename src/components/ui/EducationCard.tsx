@@ -13,9 +13,6 @@ const EducationCard = () => (
     <p className="text-secondary text-sm">
       <strong>Modules:</strong> Architectures & Operating Systems, Programming (Java, C, C++), Database Systems (PostgreSQL), Analogue & Digital Electronics, Advanced Mathematics, Web-Based Programming, and Principles of Computing.
     </p>
-    <p className="text-secondary text-sm">
-      Currently building skills in system-level problem solving, embedded programming, backend systems, and full-stack development through hands-on projects.
-    </p>
 
     {/* A-Levels */}
     <p className="font-medium">A-Levels</p>

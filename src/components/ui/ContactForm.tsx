@@ -34,7 +34,7 @@ const ContactForm = () => (
             type="email" 
             name="email" 
             required
-            placeholder="your.name@example.com"
+            placeholder="your.name@domain.com"
             className="flex w-full mt-1 border border-border rounded-sm px-3 py-1 focus:border-accent focus:ring-accent/50 focus:ring-[3px] focus:outline-none transition duration-150"
           />
         </label>

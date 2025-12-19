@@ -12,11 +12,11 @@ const ContactInformation = () => (
         <div className="bg-accent/15 rounded-md w-min p-1 text-accent">
           <Email />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col overflow-hidden">
           <span className="font-medium">Email</span>
           <a 
             href="mailto:arthursrodzinskistevens@gmail.com"
-            className="text-secondary hover:text-accent transition duration-150"
+            className="text-secondary hover:text-accent transition duration-150 wrap-break-word"
           >
             arthursrodzinskistevens@gmail.com
           </a>

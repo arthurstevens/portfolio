@@ -6,7 +6,7 @@ import ArrowDown from './ui/icons/ArrowDown';
 import FadeUpSection from './ui/FadeUpSection';
 
 const Home = () => (
-  <section id="home" className="relative w-full min-h-[max(100vh,800px)] flex items-center justify-center">
+  <section id="home" className="relative w-full min-h-[max(100vh,850px)] flex items-center justify-center">
     <HomeBackground />
     <div className="absolute mt-6 text-center text-primary w-full max-w-4xl mx-auto px-4 sm:px-6">
       <div className="flex flex-col items-center space-y-10">
@@ -17,8 +17,15 @@ const Home = () => (
           {/* Name */}
           <h1 className="text-3xl sm:text-5xl font-bold tracking-tighter">
             <span className="text-accent">{"> "}</span> 
-            <span className="text-foreground">ARTHUR</span>{" "}
-            <span className="text-secondary">SRODZINSKI-STEVENS</span>
+
+            {/* Large VP */}
+            <span className="text-foreground hidden sm:inline">ARTHUR</span>{" "}
+            <span className="text-secondary hidden sm:inline">SRODZINSKI-STEVENS</span>
+            
+            {/* Small VP */}
+            <span className="text-foreground inline sm:hidden">A.</span>{" "}
+            <span className="text-secondary inline sm:hidden">SRODZINSKI-STEVENS</span>
+
             <span className="text-accent animate-blink">_</span>
           </h1>
 
@@ -42,7 +49,7 @@ const Home = () => (
               className="peer/projects order-1 flex-1 basis-0 box-border text-center cursor-pointer flex items-center justify-center p-2 space-x-1 h-full rounded-md text-black hover:text-primary bg-accent hover:bg-transparent border border-accent hover:border-white transition duration-300 ease-in-out"
             >
               <Code />
-              <span className="font-semibold text-lg">View Projects</span>
+              <span className="font-semibold text-md sm:text-lg">View Projects</span>
             </a>
 
             {/* Social links */}
@@ -58,14 +65,14 @@ const Home = () => (
     </div>
 
     {/* Scroll icon */}
-      <div className="absolute bottom-2 flex flex-col justify-center items-center w-full">
-        <a href="#about" className="text-xs text-secondary hover:text-accent">
-          <p>SCROLL</p>
-          <div className="flex animate-bounce justify-center">
-            <ArrowDown size={32}/>
-          </div>
-        </a>
-      </div>
+    <div className="absolute bottom-2 flex flex-col justify-center items-center w-full">
+      <a href="#about" className="text-xs text-secondary hover:text-accent">
+        <p>SCROLL</p>
+        <div className="flex animate-bounce justify-center">
+          <ArrowDown size={32}/>
+        </div>
+      </a>
+    </div>
 
   </section>
 );

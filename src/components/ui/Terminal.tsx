@@ -18,7 +18,7 @@ const Terminal = () => {
       </div>
 
       {/* Content */}
-      <div className="text-left space-y-1 pl-3 pr-3 pb-1">
+      <div className="text-left space-y-1 pl-3 pr-3 pb-1 overflow-x-auto text-nowrap">
         <code className="text-accent">$ whoami</code><br/>
         <code className="text-primary">arthur_srodzinski-stevens</code><br/>
         <code className="text-accent">{'$ echo "${toolkit[@]}";'}</code><br/>

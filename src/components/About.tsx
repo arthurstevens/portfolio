@@ -61,7 +61,7 @@ const About = () => (
                 When I'm not exploring technologies, you'll find me in the gym 🏋️, adventuring ⛰️, or enjoying a cosy night in ☕😴.
               </p>
               <p className="text-secondary">
-                I also have ongoing projects as part of my societies. As a member of my University's <strong className="text-primary/70">Formula Student</strong> 
+                I also have ongoing projects as part of my societies. As a member of my University's <strong className="text-primary/70">Formula Student </strong> 
                 team, I am currently developing our CAN bus, ECU, and digital twin. Another role to me is as a founding engineer of 
                 <strong className="text-primary/70"> UEA Innovators Society</strong>. Within this team, we have our sights set on studying autonomous vehicles, 
                 but we must first skill-up our multi-disciplinary team.

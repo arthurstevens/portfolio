@@ -6,7 +6,7 @@ const HomeBackground: React.FC = () => (
   <div className="absolute inset-0 overflow-hidden">
     <img
       src={bgImage}
-      className="w-full h-full object-cover feather-opacity"
+      className="w-full h-full object-cover feather-opacity opacity-gradient"
     />
   </div>
 );

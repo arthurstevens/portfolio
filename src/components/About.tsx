@@ -40,15 +40,15 @@ const About = () => (
             <h3 className="text-2xl font-semibold text-shadow-[0_0px_10px_theme(colors.primary)]">Hello! I'm Arthur.</h3>
             {/* About */}
             <p className="text-secondary">
-              I am learning <strong>full-stack</strong> and <strong>systems-level solutions</strong>, with experience in building backend systems, databases, and 
-              deploying applications to cloud.
+              I am learning <strong>full-stack</strong> and <strong>systems-level solutions</strong>, with experience in building backend systems, deployment, 
+              and embedded systems.
               <br /><br />
               I'm a second-year computer science student at university, with a drive for problem solving and
               creating innovative solutions. My journey in computing began with wanting to know <strong>how</strong> 
-              something operates, not just what it achieves. Perhaps one of my weaknesses, not accepting an interface 
-              and feeling compelled to dive into its dependency-hell.
+              something operates, not just what it achieves. Noted as one of my weaknesses - feeling compelled to dive 
+              into a dependency-hell.
               <br /><br />
-              This curisoity rooted itself and is ever-growing into the love I have for tech today. I've applied this 
+              This curisoity rooted itself as the ever-growing love I have for tech today. I've applied this 
               interest to real projects: from building a <strong>custom load balancer</strong> exploring concurrency, 
               fault tolerance, and custom CLI tooling, to a <strong>web-based monitoring tool</strong> for data visualisation 
               and KPIs. I currently enjoy solving day-to-day problems whilst bettering my understanding of low-level systems.
@@ -58,7 +58,13 @@ const About = () => (
             <div className="space-y-2">
               <h4 className="text-lg font-semibold">Other Interests</h4>
               <p className="text-secondary">
-                When I'm not exploring new or old technologies, you'll find me working out in the gym 🏋️, adventuring ⛰️, or enjoying a cosy night in ☕😴.
+                When I'm not exploring technologies, you'll find me in the gym 🏋️, adventuring ⛰️, or enjoying a cosy night in ☕😴.
+              </p>
+              <p className="text-secondary">
+                I also have ongoing projects as part of my societies. As a member of my University's <strong className="text-primary/70">Formula Student</strong> 
+                team, I am currently developing our CAN bus, ECU, and digital twin. Another role to me is as a founding engineer of 
+                <strong className="text-primary/70"> UEA Innovators Society</strong>. Within this team, we have our sights set on studying autonomous vehicles, 
+                but we must first skill-up our multi-disciplinary team.
               </p>
             </div>
           </div>
